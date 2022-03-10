@@ -1,0 +1,5 @@
+- name: " Start a Server"
+  community.general.clc_server:
+    server_ids:
+      - managenode1
+    state: started

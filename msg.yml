@@ -1,0 +1,9 @@
+---
+ - hosts: all
+   vars :
+    msg: hey how are u?
+   
+   tasks :
+    - name : messgage through variable
+      debug:
+        msg: "{{msg}}"

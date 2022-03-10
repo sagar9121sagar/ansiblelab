@@ -1,0 +1,2 @@
+- name : check high rocess
+  debug: ansible centos -m shell -a"ps -eo %cpu --sort=-%mem | head"
